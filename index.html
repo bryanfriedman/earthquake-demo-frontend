@@ -8,7 +8,7 @@
     <script src="http://code.jquery.com/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBHLett8djBo62dDXj0EjCimF8Rd6E8cxg"></script>
     <script src="scripts/app.js"></script>
-    <title>GeoQuake</title>
+    <title>GeoQuake and GeoFlood</title>
   </head>
   <body>
       <div class="container">
@@ -24,6 +24,18 @@
                 <button type="submit">Search</button>
               </form>
             <div id="info"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12 col-md-6">
+            <div id="map-floods"></div>
+          </div>
+          <div id="results-floods" class="col-xs-12 col-md-6">
+              <h1>Floods:</h1>
+            <div id="info-floods"></div>
           </div>
         </div>
       </div>
